@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto&family=Staatliches&display=swap');
+
+body {
+    margin: 0;
+    max-width: 100%;
+    background-color: #000;
+    color: #fff;
+    font-family: roboto;
+    scrollbar-width: none;
+    scrollbar-color: transparent transparent;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+
