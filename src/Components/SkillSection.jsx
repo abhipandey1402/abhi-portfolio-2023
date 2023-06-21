@@ -84,7 +84,7 @@ const SkillSection = () => {
             <p>Java</p>
           </div>
           <div className="skillsImg">
-            <img src={js} style={{ marginLeft: "200px" }} />
+            <img src={js}/>
             <p>JavaScript</p>
           </div>
         </div>
