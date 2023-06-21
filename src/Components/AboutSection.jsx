@@ -4,7 +4,7 @@ import leetcode from "../assets/socialSection/leetcode.png";
 
 const AboutSection = () => {
   return (
-    <div>
+    <div id="about">
       <div className="aboutSection">
         <h6>
           About Me{" "}

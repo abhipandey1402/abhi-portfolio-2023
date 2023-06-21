@@ -8,13 +8,12 @@ import spring from "../assets/skillSection/spring.png";
 import restAPI from "../assets/skillSection/restAPI.png";
 import mysql from "../assets/skillSection/mysql.png";
 import maven from "../assets/skillSection/maven.png";
-import hibernate from "../assets/skillSection/hibernate-icon.png";
 import dbms from "../assets/skillSection/dbms.png";
 import java from "../assets/skillSection/java.png";
 
 const SkillSection = () => {
   return (
-    <div>
+    <div id="skills">
       <div className="skillSection">
         <h6>
           Variable Skill Set{" "}
