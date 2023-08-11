@@ -1,4 +1,4 @@
-
+import logo from "../assets/heroSection/coderMonkey.png"
 
 const HeroSection = () => {
 
@@ -12,6 +12,9 @@ const HeroSection = () => {
                 <div className="heroDesc">
                     <p>Hey There ! I am Abhi Pandey - A Self Taught Web Developer. <br /> Welcome to my Professional Portfolio</p>
                 </div>
+            </div>
+            <div className="heroImg">
+                <img src={logo}/>
             </div>
         </div>
     )
